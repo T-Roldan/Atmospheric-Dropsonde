@@ -1,0 +1,13 @@
+# ESP-IDF build output & local config
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# Python & flight logs
+__pycache__/
+*.pyc
+dropsonde_profile_*.csv
+
+# VS Code workspace cache
+.vscode/
